@@ -1,0 +1,31 @@
+{
+  "name": "i18n-auto-translate",
+  "version": "0.0.1",
+  "description": "Automatically translates from an i18n main file to multiple i18n target files via Google translate.",
+  "main": "index.js",
+  "bin": {
+    "i18n-auto-translate": "./index.js"
+  },
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "keywords": [
+    "i18n",
+    "translation",
+    "google translate"
+  ],
+  "author": "Marc Dix",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/translate": "^6.0.3",
+    "js-object-compare": "^1.0.0",
+    "jsome": "^2.5.0",
+    "map-factory": "^3.8.3",
+    "merge-anything": "^4.0.0",
+    "minimist": "^1.2.5",
+    "sort-keys-recursive": "^2.0.1"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
