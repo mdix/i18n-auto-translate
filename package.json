@@ -1,6 +1,6 @@
 {
   "name": "i18n-auto-translate",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Automatically translates from an i18n main file to multiple i18n target files via Google translate.",
   "main": "index.js",
   "bin": {
