@@ -1,4 +1,7 @@
 # i18n-auto-translate 
+
+![translation progress visualization](https://github.com/mdix/i18n-auto-translate/blob/main/doc/translation.gif?raw=true)
+
 Automatically translates via an i18n main file to multiple i18n target files. Can also override values that already
 existed. Uses the google-translate API.     
      
