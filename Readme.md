@@ -26,13 +26,17 @@ for every language you want translated. Only put keys and values in the file tha
 add at least one file group: 
     ```
     module.exports = {
-        // a name to uniquely identify this group
-        name: 'a_unique_name_to_identify_this_file_group', 
-        // path to all your translations files
-        path: 'the/path/to/the/translation/files', 
-        // this is your locale file that is used as the "main" (inside the directory you defined in 'path')
-        main: 'name_of_the_main_translation_file.js',
-    },
+        files: [
+            {
+                 // a name to uniquely identify this group
+                 name: 'a_unique_name_to_identify_this_file_group', 
+                 // path to all your translations files
+                 path: 'the/path/to/the/translation/files', 
+                 // this is your locale file that is used as the "main" (inside the directory you defined in 'path')
+                 main: 'name_of_the_main_translation_file.js',
+            },
+        ]
+    }
     ```
 
 5. You should now have something like:
